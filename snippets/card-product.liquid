@@ -103,6 +103,16 @@
                 >
               {%- endif -%}
             </div>
+            <div class="my_collection__product___variant">
+              <ul class="my_collection__product___variant___link">
+                  {% for item in card_product.options_with_values %}
+                    <li>{{ item }}</li>
+                      {% comment %} {% if item == "Size" %}
+                        <li> {{ item }} </li>
+                      {% endif %} {% endcomment %}
+                  {% endfor %}
+              </ul>
+            </div>
           </div>
         {%- endif -%}
         <div class="card__content">
@@ -531,6 +541,7 @@
             </span>
           {%- endif -%}
         </div>
+        
       </div>
     </div>
   </div>
@@ -583,6 +594,7 @@
             {% render 'price', show_compare_at_price: true %}
           </div>
         </div>
+        
       </div>
     </div>
   </div>

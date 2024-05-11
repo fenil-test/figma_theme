@@ -24,7 +24,6 @@
         "slide_ThWKtK": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/istockphoto-1259705254-612x612_-_Copy.png",
             "heading": "Up to 50% Off",
             "heading_size": "h0",
             "subheading": "SUMMER SALE",
@@ -63,7 +62,7 @@
         "description": "<p>FEATURED COLLECTIONS<\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "cropped-stript-crew",
+        "collection": "best-sellers",
         "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": false,
@@ -101,7 +100,7 @@
         "featured_collection_8HqXGK": {
           "type": "featured_collection",
           "settings": {
-            "collection": "new-arrive"
+            "collection": "new-arrivals"
           }
         }
       },
@@ -158,9 +157,9 @@
         "buttons_x6Cgk4"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_5.png",
+        "image_2": "shopify:\/\/shop_images\/Group30.png",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -179,7 +178,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "cropped-stript-crew",
+        "collection": "latest-greatest",
         "products_to_show": 3,
         "columns_desktop": 3,
         "full_width": false,
@@ -204,7 +203,7 @@
       "settings": {
         "h-title": "LUXURIOUSLY AFFORDABLE",
         "heading": "Under $99.99",
-        "collection": "luxuriously-affordable"
+        "collection": "under-99-99"
       }
     },
     "multicolumn_jMwAmk": {

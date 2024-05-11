@@ -1,4 +1,9 @@
-
+:root {
+  --alpha-button-background: 1;
+  --alpha-button-border: 1;
+  --alpha-link: 0.85;
+  --alpha-badge-border: 0.1;
+}
 
 .product-card-wrapper .card,
 .contains-card--product {
@@ -543,6 +548,9 @@ hr {
   display: block;
  
 }
+.collection-list .full-unstyled-link{
+  font-size: 28px;
+}
 .h5 .full-unstyled-link {
   color: black;
 }
@@ -807,6 +815,9 @@ summary::-webkit-details-marker {
   .title-wrapper-with-link .title {
     margin-bottom: 0;
   }
+  #Slide-template--17834972938496__collection_list_kWKaHX-1{
+    width: 20%;
+  }
 
   .title-wrapper--self-padded-tablet-down {
     padding-left: 0;
@@ -887,6 +898,20 @@ summary::-webkit-details-marker {
 }
 .my_product_list p,span{
   margin: 0px;
+}
+ .card__content {
+  text-align: center;
+}
+
+.my__collection__btn___link{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin-top: 10px;
+  /* margin-left: 30px; */
+  font-size: 16px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
 }
 
 .my_feature__product___list{
