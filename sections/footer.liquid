@@ -186,6 +186,11 @@
                             height="{{ block.settings.image.height }}"
                           >
                           <div><h2 class="my_footer_iocn">GET SOCIAL</h2></div>
+                          <div class="my_footer__icon___list">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                          </div>
                         </div>
                       {%- else -%}
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
@@ -351,6 +356,9 @@
             {%- endfor -%}
           </ul>
         {%- endif -%}
+      </div>
+      <div class="footer__madeWith">
+        <small>made with &#9829; and &#x26FE; by Arctic Grey</small>
       </div>
     </div>
   </div>

@@ -906,6 +906,27 @@ summary::-webkit-details-marker {
   margin-top: 15px;
   cursor: pointer;
 }
+.footer__content-bottom-wrapper{
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__content-bottom-wrapper .footer__copyright{
+  margin-top: 0px;
+}
+
+.my_footer__icon___list{
+  display: flex;
+}
+.section-sections--17834972315904__footer-padding{
+  padding-bottom: 10px;
+}
+.footer {
+  padding-bottom: 10px;
+}
+.my_footer__icon___list i{
+  font-size: 22px;
+  margin-left: 10px;
+}
 .footer-block .footer-block__image-wrapper h2{
   margin-right: 119px;
   margin-bottom: 25px;
