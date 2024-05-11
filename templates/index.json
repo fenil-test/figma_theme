@@ -173,9 +173,9 @@
     "featured_collection_RgpQiN": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Latest & Greatest",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p>NEW ARRIVALS<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "latest-greatest",

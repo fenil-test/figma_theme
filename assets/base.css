@@ -891,7 +891,29 @@ summary::-webkit-details-marker {
   height: 450px;
   object-fit: cover;
 }
+.my_collection__product___variant{
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  display: none;
+  transform: translate(-50%);
+  background-color: #fff;
+  font-weight: 500;
+  text-align: center;
+}
+.grid__item:hover .my_collection__product___variant{
+  transition: 1s;
+  display: block;
+}
+.my_collection__product___variant____list{
+  padding: 3px 10px;
+}
 
+.my_collection__product___variant___link{
+  display: flex;
+  list-style: none;
+  padding: 0px 10px;
+}
 .subtitle--small {
   font-size: 1.4rem;
   letter-spacing: 0.1rem;
@@ -902,7 +924,9 @@ summary::-webkit-details-marker {
  .card__content {
   text-align: center;
 }
-
+.my_collection__product___variant{
+  position: absolute;
+}
 .my__collection__btn___link{
   text-decoration: none;
   color: white;
@@ -915,7 +939,7 @@ summary::-webkit-details-marker {
 }
 
 .my_feature__product___list{
-  width: 60%;
+  width: 70%;
   grid-column-gap: 10px;
   margin: 0px auto;
   display: grid;
