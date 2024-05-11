@@ -8,7 +8,7 @@
         "link_list_aF6yEw": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "HELPFUL INFO",
             "menu": "footer"
           }
         },
@@ -16,13 +16,13 @@
           "type": "link_list",
           "settings": {
             "heading": "CUSTOMER SERVICE",
-            "menu": "footer-menu1"
+            "menu": "footer-menu"
           }
         },
         "text_xrg7ma": {
           "type": "text",
           "settings": {
-            "heading": "JOIN the cashmere sale",
+            "heading": "JOIN THE CASHMERA SALE",
             "subtext": "<p>Subscribe  to receive updates and find out where we are popping up soon!<\/p>"
           }
         },
