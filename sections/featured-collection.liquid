@@ -83,6 +83,18 @@
         <h2 class="title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
           {{ section.settings.title }}
         </h2>
+        {% if section.settings.collection.title == 'Under $99.99' %}
+          <div class="my_underProduct__filter___navbar">
+          <ul class="my_underProduct__filter___navbar____list">
+            <li><a href="" class="my_underProduct__filter___navbar____link">Sweaters</a></li>
+            <li><a href="" class="my_underProduct__filter___navbar____link">Women</a></li>
+            <li><a href="" class="my_underProduct__filter___navbar____link">Bottoms</a></li>
+            <li><a href="" class="my_underProduct__filter___navbar____link">ACCESSORIES</a></li>
+            <li><a href="" class="my_underProduct__filter___navbar____link">MEN</a></li>
+           </ul>
+        </div>
+        {% endif %}
+        
       {%- endif -%}
     </div>
 
@@ -180,7 +192,7 @@
           class="{% if section.settings.view_all_style == 'link' %}link underlined-link{% elsif section.settings.view_all_style == 'solid' %}button{% else %}button button--secondary{% endif %}"
           aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title | escape }}"
         >
-          {{ 'sections.featured_collection.view_all' | t }}
+          {{ section.settings.button_label_1 }}
         </a>
       </div>
     {%- endif -%}
@@ -199,6 +211,13 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+          "type": "text",
+          "id": "button_label_1",
+          "default": "Button label",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
+          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
+    },
     {
       "type": "inline_richtext",
       "id": "title",
