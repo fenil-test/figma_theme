@@ -24,6 +24,7 @@
         "slide_ThWKtK": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1_1.png",
             "heading": "Up to 50% Off",
             "heading_size": "h0",
             "subheading": "SUMMER SALE",
@@ -34,7 +35,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-7da60173-4179-4566-92c9-e6f93705c4ab",
+            "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
         }

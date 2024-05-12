@@ -915,6 +915,9 @@ summary::-webkit-details-marker {
 .my_footer__icon___list{
   display: flex;
 }
+#Slide-template--17834972938496__slideshow_TAbkPf-2 .slideshow__text {
+  background-color: #FFFFFFB2;
+}
 .section-sections--17834972315904__footer-padding{
   padding-bottom: 20px;
 }
@@ -1671,12 +1674,16 @@ button.shopify-payment-button__button--unbranded {
 details[open] > .share-button__fallback {
   animation: animateMenuOpen var(--duration-default) ease;
 }
-
+#price-template--17834973135104__main .price{
+  text-align: left;
+}
 .share-button__button:hover {
   text-decoration: underline;
   text-underline-offset: 0.3rem;
 }
-
+.product .price .badge{
+  display: none;
+}
 .share-button__button,
 .share-button__fallback button {
   cursor: pointer;
