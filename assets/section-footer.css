@@ -363,12 +363,17 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
+  
+  .footer .footer-block-image.right{
+    justify-content: flex-start;
+  }
 }
 
 @media screen and (min-width: 750px) {
   .footer-block__details-content .list-menu__item--link {
     display: inline-block;
     font-size: 1.4rem;
+    padding-bottom: 0px;
   }
 
   .footer-block__details-content > :first-child .list-menu__item--link {
@@ -503,8 +508,6 @@
       margin-left: -3rem;
     }
 
-    .footer__content-top .grid__item {
-      padding-left: 3rem;
-    }
+   
   }
 }

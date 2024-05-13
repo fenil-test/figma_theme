@@ -18,6 +18,7 @@
       data-update-url="false"
     {% endif %}
     {{ block.shopify_attributes }}
+    class="my_product_variant_selects"
   >
     {%- for option in product.options_with_values -%}
       {%- liquid

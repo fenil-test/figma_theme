@@ -73,6 +73,22 @@
   .collection-list.slider .collection-list__item {
     max-width: 100%;
   }
+  .collection-list .collection-list__item {
+    max-width: 95%;
+  }
+  .collection-list{
+    justify-content: center;
+  }
+  #Slide-template--17833030811904__collection_list_kWKaHX-1{
+    max-width: 95%;
+  }
+  #Slide-template--17833030811904__collection_list_kWKaHX-2{
+    margin-left: 20px;
+  }
+  #Slide-template--17833030811904__collection_list_kWKaHX-3{
+    margin-right: 20px;
+  }
+ 
 }
 
 .collection-list-view-all {

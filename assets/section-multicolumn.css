@@ -74,8 +74,7 @@
 }
 
 .multicolumn.background-primary .multicolumn-card {
-  background: rgb(var(--color-background))
-    linear-gradient(rgba(var(--color-foreground), 0.04), rgba(var(--color-foreground), 0.04));
+  background: #F6F5F3;
 }
 
 .multicolumn-list h3 {
@@ -146,9 +145,7 @@
   margin: 0;
 }
 
-.multicolumn-card__info {
-  padding: 2.5rem;
-}
+
 
 .background-none .multicolumn-card__info {
   padding-top: 0;
