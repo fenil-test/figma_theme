@@ -2,6 +2,7 @@
   border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }
 
+
 .footer:not(.color-scheme-1) {
   border-top: none;
 }
@@ -15,17 +16,21 @@
   .footer .grid {
     display: block;
   }
-
+ 
   .footer-block.grid__item {
     padding: 0;
     margin: 4rem 0;
     width: 100%;
   }
-
+  .footer .footer-block__image-wrapper{
+    overflow: visible !important;
+  }
   .footer-block.grid__item:first-child {
     margin-top: 0;
   }
-
+  .my_footer__img{
+    display: flex;
+  }
   .footer__content-top {
     padding-bottom: 3rem;
     padding-left: calc(4rem / var(--font-body-scale));

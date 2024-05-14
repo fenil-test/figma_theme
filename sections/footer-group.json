@@ -29,7 +29,8 @@
         "image_UkJzyJ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_17.png",
+            "image": "shopify:\/\/shop_images\/Group_16.png",
+            "image1": "shopify:\/\/shop_images\/Group_30.png",
             "image_width": 200,
             "alignment": "right"
           }

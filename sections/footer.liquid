@@ -177,14 +177,24 @@
                         style="max-width: min(100%, {{ block.settings.image_width }}px);"
                         >
                         <div><h2>WE ACCPECT</h2></div>
-                          <img
-                            srcset="{{ block.settings.image | image_url: width: block.settings.image_width }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
-                            src="{{ block.settings.image | image_url: width: 760 }}"
-                            alt="{{ block.settings.image.alt | escape }}"
+                        <div class="my_footer__img">
+                            <img
+                              srcset="{{ block.settings.image | image_url: width: block.settings.image_width }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
+                              src="{{ block.settings.image | image_url: width: 760 }}"
+                              alt="{{ block.settings.image.alt | escape }}"
+                              loading="lazy"
+                              width="{{ block.settings.image.width }}"
+                              height="{{ block.settings.image.height }}"
+                            >
+                            <img
+                            srcset="{{ block.settings.image1 | image_url: width: block.settings.image1_width }}, {{ block.settings.image1 | image_url: width: image1_size_2x }} 2x"
+                            src="{{ block.settings.image1 | image_url: width: 760 }}"
+                            alt="{{ block.settings.image1.alt | escape }}"
                             loading="lazy"
-                            width="{{ block.settings.image.width }}"
-                            height="{{ block.settings.image.height }}"
-                          >
+                            width="{{ block.settings.image1.width }}"
+                            height="{{ block.settings.image1.height }}"
+                          > 
+                        </div>  
                           <div><h2 class="my_footer_iocn">GET SOCIAL</h2></div>
                           <div class="my_footer__icon___list">
                             <i class="fa-brands fa-facebook"></i>
@@ -436,6 +446,11 @@
         {
           "type": "image_picker",
           "id": "image",
+          "label": "Image"
+        }, 
+        {
+          "type": "image_picker",
+          "id": "image1",
           "label": "Image"
         },
         {
