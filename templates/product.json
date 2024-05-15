@@ -44,10 +44,12 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
+        "richtext": {
+          "type": "richtext",
           "settings": {
-            "share_label": "Share"
+            "addtionText": "Pay in 4 interest-free installments of $34.50 with",
+            "shopby": "shop",
+            "link": "Learn Morn"
           }
         }
       },
@@ -59,7 +61,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "richtext"
       ],
       "settings": {
         "enable_sticky_info": true,

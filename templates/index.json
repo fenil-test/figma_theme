@@ -65,7 +65,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "best-sellers",
-        "products_to_show": 8,
+        "products_to_show": 5,
         "columns_desktop": 6,
         "full_width": false,
         "show_view_all": true,
@@ -127,18 +127,18 @@
     "image_banner_JJK4pa": {
       "type": "image-banner",
       "blocks": {
-        "heading_8Ee7Qr": {
-          "type": "heading",
-          "settings": {
-            "heading": "SUMMER DRESSES",
-            "heading_size": "h1"
-          }
-        },
         "text_6nWQ8h": {
           "type": "text",
           "settings": {
             "text": "IN FOR THE SEASON",
             "text_style": "body"
+          }
+        },
+        "heading_8Ee7Qr": {
+          "type": "heading",
+          "settings": {
+            "heading": "SUMMER DRESSES",
+            "heading_size": "h1"
           }
         },
         "buttons_x6Cgk4": {
@@ -154,8 +154,8 @@
         }
       },
       "block_order": [
-        "heading_8Ee7Qr",
         "text_6nWQ8h",
+        "heading_8Ee7Qr",
         "buttons_x6Cgk4"
       ],
       "settings": {
@@ -187,7 +187,7 @@
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",

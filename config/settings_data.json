@@ -1,15 +1,15 @@
 {
   "current": {
     "logo": "shopify:\/\/shop_images\/Group_18.png",
-    "logo_width": 90,
+    "logo_width": 100,
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
-    "spacing_grid_horizontal": 8,
-    "spacing_grid_vertical": 8,
+    "spacing_grid_horizontal": 32,
+    "spacing_grid_vertical": 28,
     "animations_reveal_on_scroll": true,
     "animations_hover_elements": "none",
     "buttons_border_thickness": 1,
@@ -186,7 +186,7 @@
           "background_gradient": "",
           "text": "#000000",
           "button": "#000000",
-          "button_label": "#FFFFFF",
+          "button_label": "#ffffff",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
@@ -259,7 +259,7 @@
       },
       "scheme-003013aa-a7a8-4980-9157-ab8191302f93": {
         "settings": {
-          "background": "#FFFFFF",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#121212",
           "button": "#121212",

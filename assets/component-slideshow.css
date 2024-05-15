@@ -112,7 +112,7 @@ slideshow-component .slideshow.banner {
   order: 2;
   z-index: 1;
 }
-
+    
 @media screen and (max-width: 749px) {
   .slideshow__controls--border-radius-mobile {
     border-bottom-right-radius: var(--text-boxes-radius);
