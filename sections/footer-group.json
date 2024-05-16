@@ -2,6 +2,234 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "multicolumn_jMwAmk": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YVAn4q": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_15.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mDXrEm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_10.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YEWBnQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_11.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qV4VN3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_12.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Kw8f7x": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_13.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ePbU8M": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_14.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_YVAn4q",
+        "column_mDXrEm",
+        "column_YEWBnQ",
+        "column_qV4VN3",
+        "column_Kw8f7x",
+        "column_ePbU8M"
+      ],
+      "settings": {
+        "title": "FOLLOW US ON INSTAGRAM",
+        "descri": "@THECASHMERESALE",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 6,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_jfF7eb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_3Jnhiq": {
+          "type": "column",
+          "settings": {
+            "title": "Pop-up Locations",
+            "text": "<p>Bergen, NJ<br\/>Boston, MA<\/p><p>Burlingame, CA<br\/><br\/><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TQfNyg": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Charleston, SC<br\/>Dallas, TX<br\/>Darien, CT<br\/><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jJCbzB": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Denver, CO<br\/>East Bay, CA<br\/>Greenwich, CT<br\/><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QCcEQA": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Highland Park, IL<\/p><p>Marin, CA<br\/>Manhattan, NY<br\/><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gx48NN": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Santa Monica, CA<br\/>St Louis, MO<br\/>Summit, NJ<br\/><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EbbQc8": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Upper East SideUpper West Side<br\/>Westport, CT<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CJRtN6": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_3Jnhiq",
+        "column_TQfNyg",
+        "column_jJCbzB",
+        "column_QCcEQA",
+        "column_gx48NN",
+        "column_EbbQc8",
+        "column_CJRtN6"
+      ],
+      "settings": {
+        "title": "",
+        "descri": "@THECASHMERESALE",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-c6de880e-3902-4b35-ba77-ee3b4faf36fe",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_N4Xaey": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_K44eKd": {
+          "type": "column",
+          "settings": {
+            "title": "Pop-up Locations",
+            "text": "<p>Bergen, NJ<br\/>Boston, MA<\/p><p>Burlingame, CA<\/p><p>Charleston, SC<br\/>Dallas, TX<br\/>Darien, CT<\/p><p>Denver, CO<br\/>East Bay, CA<br\/>Greenwich, CT<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VRXA6P": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Highland Park, IL<\/p><p>Marin, CA<br\/>Manhattan, NY<\/p><p>Santa Monica, CA<br\/>St Louis, MO<br\/>Summit, NJ<br\/>Upper East Side<\/p><p>Upper West Side<br\/>Westport, CT<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_K44eKd",
+        "column_VRXA6P"
+      ],
+      "settings": {
+        "title": "",
+        "descri": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -59,6 +287,9 @@
     }
   },
   "order": [
+    "multicolumn_jMwAmk",
+    "multicolumn_jfF7eb",
+    "multicolumn_N4Xaey",
     "footer"
   ]
 }

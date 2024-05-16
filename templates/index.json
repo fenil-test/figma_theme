@@ -302,6 +302,7 @@
         "column_Kw8f7x",
         "column_ePbU8M"
       ],
+      "disabled": true,
       "settings": {
         "title": "FOLLOW US ON INSTAGRAM",
         "descri": "@THECASHMERESALE",
@@ -396,6 +397,7 @@
         "column_EbbQc8",
         "column_CJRtN6"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "descri": "@THECASHMERESALE",
@@ -413,6 +415,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_Khp4aP": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_cJ9CzK": {
+          "type": "column",
+          "settings": {
+            "title": "Pop-up Locations",
+            "text": "<p>Bergen, NJ<br\/>Boston, MA<\/p><p>Burlingame, CA<\/p><p>Charleston, SC<br\/>Dallas, TX<br\/>Darien, CT<\/p><p>Denver, CO<br\/>East Bay, CA<br\/>Greenwich, CT<br\/><br\/><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CKErbV": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Highland Park, IL<\/p><p>Marin, CA<br\/>Manhattan, NY<\/p><p>Santa Monica, CA<br\/>St Louis, MO<br\/>Summit, NJ<br\/>Upper East Side<\/p><p>Upper West Side<br\/>Westport, CT<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_cJ9CzK",
+        "column_CKErbV"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Multicolumn",
+        "descri": "@THECASHMERESALE",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -423,6 +470,7 @@
     "featured_collection_RgpQiN",
     "featured_collection_PJQyCA",
     "multicolumn_jMwAmk",
-    "multicolumn_jfF7eb"
+    "multicolumn_jfF7eb",
+    "multicolumn_Khp4aP"
   ]
 }

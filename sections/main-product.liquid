@@ -186,8 +186,23 @@
                 </p>
               {%- when 'description' -%}
                 {%- if product.description != blank -%}
-                  <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
-                    {{ product.description }}
+                  <div class="my_main__product___frist____show_____hide">
+                    <div class="product__description " {{ block.shopify_attributes }}>
+                       {{ product.description }}
+                      </div>
+                      <div class="my_main__product___show"> 
+                        <span class="puls"> + </span>
+                        <span class="min"> - </span>  
+                      </div>
+                  </div>
+                  <div class="my_main__product___sec____show_____hide">
+                      <div class="product__description rte quick-add-hidden">
+                        <h3> CARE INSTRUCTIONS </h3>
+                      </div>
+                      <div class="my_main__product___show">
+                        <span class="puls"> + </span>
+                        <span class="min"> - </span>  
+                      </div>
                   </div>
                 {%- endif -%}
               {%- when 'sku' -%}
@@ -443,12 +458,9 @@
                 </div>
               {% when 'richtext' %}
                 <div class="my_main__product___text">
-                  <div>
                     <p>{{ block.settings.addtionText }}</p>
-                    <p>{{ block.settings.shopby }}</p>
+                    <p>{{ block.settings.shopby }}<span class="my_main__product__pay">Pay</span></p>
                     <p>{{ block.settings.link }}</p>
-                    
-                  </div>
                 </div>
               {%- when 'popup' -%}
                 <modal-opener
