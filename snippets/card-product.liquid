@@ -549,7 +549,7 @@
               {% for item in card_product.options_with_values %}
                   {% if item.name == 'Color' %}
                      {% for size in item.values %}
-                          <li class="my_collection__color___variant____list" style="background-color: {{ size }}; width:30px; height:30px; border-radius:50%; border: 1px solid #DCDCDC"></li>
+                          <li class="my_collection__color___variant____list my_variant__color___size" style="background-color: {{ size }};  border-radius:50%; border: 1px solid #DCDCDC"></li>
                      {% endfor %}
                   {% endif %}
               {% endfor %}

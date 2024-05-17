@@ -478,6 +478,7 @@ table:not([class]) th {
   .my_collection__product___variant{
     display: block;
   }
+ 
 }
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
@@ -1269,6 +1270,7 @@ summary::-webkit-details-marker {
     width: 100%;
     max-width: none;
   }
+ 
   .my_underProduct__filter___navbar____link{
     font-size: 1rem;
   }
@@ -1463,6 +1465,9 @@ summary::-webkit-details-marker {
     margin: 0;
     width: 100%;
   }
+  #Slide-template--17833030811904__featured_collection_PJQyCA-7 {
+    display: block !important;
+}
   #Slider-template--17833030811904__featured_collection_PJQyCA .grid__item {
     width: calc(49% - var(--grid-desktop-horizontal-spacing));
   }

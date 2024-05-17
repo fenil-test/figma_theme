@@ -185,25 +185,29 @@
                   {%- endif -%}
                 </p>
               {%- when 'description' -%}
+               
                 {%- if product.description != blank -%}
-                  <div class="my_main__product___frist____show_____hide">
-                    <div class="product__description " {{ block.shopify_attributes }}>
-                       {{ product.description }}
-                      </div>
-                      <div class="my_main__product___show"> 
-                        <span class="puls"> + </span>
-                        <span class="min"> - </span>  
-                      </div>
-                  </div>
-                  <div class="my_main__product___sec____show_____hide">
-                      <div class="product__description rte quick-add-hidden">
-                        <h3> CARE INSTRUCTIONS </h3>
-                      </div>
-                      <div class="my_main__product___show">
-                        <span class="puls"> + </span>
-                        <span class="min"> - </span>  
-                      </div>
-                  </div>
+                  <div class="my_main__product___show____hide">
+                      <div class="my_main__product___frist____show_____hide">
+                        <div class="product__description " {{ block.shopify_attributes }}>
+                        {{ product.description }}
+                        </div>
+                        <div class="my_main__product___show"> 
+                          <span class="puls"> + </span>
+                          <span class="min"> - </span>  
+                        </div>
+                      </div>  
+                    
+                    <div class="my_main__product___sec____show_____hide">
+                        <div class="product__description rte quick-add-hidden">
+                          <h3> CARE INSTRUCTIONS </h3>
+                        </div>
+                        <div class="my_main__product___show">
+                          <span class="puls"> + </span>
+                          <span class="min"> - </span>  
+                        </div>
+                    </div>
+                  </div>  
                 {%- endif -%}
               {%- when 'sku' -%}
                 <p
