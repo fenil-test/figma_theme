@@ -27,6 +27,13 @@
             "swatch_shape": "circle"
           }
         },
+        "text_QDhCha": {
+          "type": "text",
+          "settings": {
+            "text": "Size Guide",
+            "text_style": "body"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -58,6 +65,7 @@
         "title",
         "price",
         "variant_picker",
+        "text_QDhCha",
         "quantity_selector",
         "buy_buttons",
         "richtext",
