@@ -27,13 +27,6 @@
             "swatch_shape": "circle"
           }
         },
-        "text_QDhCha": {
-          "type": "text",
-          "settings": {
-            "text": "Size Guide",
-            "text_style": "body"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -46,17 +39,19 @@
             "show_gift_card_recipient": true
           }
         },
-        "richtext": {
-          "type": "richtext",
-          "settings": {
-            "addtionText": "Pay in 4 interest-free installments of $34.50 with",
-            "shopby": "shop",
-            "link": "Learn Morn"
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
+          }
+        },
+        "size_kmU3EB": {
+          "type": "size",
+          "settings": {
+            "click_text": "Size Guide",
+            "my_heading": "Select your Size Chart",
+            "my_des": "<h2><strong>How to measure<\/strong> <\/h2><p>In order to select the correct clothing size, we recommend you take the following measurements using a soft tape measure. If necessary, ask someone else to help.<\/p><p>Due to the nature of cashmere fabric size measurements my vary slightly per garment<\/p>",
+            "my_img": "shopify:\/\/shop_images\/image_23.png",
+            "my_page": "size-chart"
           }
         }
       },
@@ -65,11 +60,10 @@
         "title",
         "price",
         "variant_picker",
-        "text_QDhCha",
         "quantity_selector",
         "buy_buttons",
-        "richtext",
-        "description"
+        "description",
+        "size_kmU3EB"
       ],
       "settings": {
         "enable_sticky_info": false,

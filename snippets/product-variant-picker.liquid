@@ -35,7 +35,14 @@
       -%}
       {%- if picker_type == 'button' -%}
         <fieldset class="js product-form__input product-form__input--pill">
-          <legend class="form__label">{{ option.name }}</legend>
+          {% if option.name == "Color" %}
+            <legend class="form__label">{{ option.name }}</legend>
+            {% else %}
+              <div class="my_form__label">
+                  <legend class="form__label">{{ option.name }}</legend>
+                  <legend class="form__label open" style="cursor: pointer;">Size Guide</legend>
+              </div>
+          {% endif %}
           {% render 'product-variant-options',
             product: product,
             option: option,
