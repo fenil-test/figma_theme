@@ -16,7 +16,6 @@
 {{ 'component-show-more.css' | asset_url | stylesheet_tag }}
 {{ 'component-swatch-input.css' | asset_url | stylesheet_tag }}
 {{ 'component-swatch.css' | asset_url | stylesheet_tag }}
-
 {%- liquid
   assign sort_by = results.sort_by | default: results.default_sort_by
   assign total_active_values = 0
@@ -72,7 +71,12 @@
                       <span>{{ 'products.facets.clear_all' | t }}</span>
                     </a>
                   </facet-remove>
+                  <div class="my_filter__show___hide">
+                    <div class="my_filter__hide"> + </div>
+                    <div class="my_filter__show"> - </div>
+                  </div>
                 </div>
+                
                 {%- for filter in results.filters -%}
                   {%- for value in filter.active_values -%}
                     <facet-remove>

@@ -8,6 +8,37 @@ html{
 
     background: #F6F5F3;
 }
+.my_filter__hide{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.my_filter__show{
+    font-size: 1.4rem;
+    font-weight: 700;
+
+}
+.my_product_variant_selects fieldset:nth-child(3){
+    display: none;
+}
+.my_filter__hide{
+    display: none;
+}
+.section-template--17833030779136__product-grid-padding .facets .facet-filters{
+    max-width: 50%;
+    width: 100%;
+}
+.my_collection__filter___heading{
+    max-width: 50%;
+    width: 100%;
+    text-align: center;
+}
+.section-template--17833030779136__product-grid-padding .facets-vertical-form{
+    align-items: center;
+    justify-content: space-around;
+}
+.my_collection__filter___heading{
+    margin-right: 10rem;
+}
 .size_guide__box{
     
         max-width: 100%;

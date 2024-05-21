@@ -1,11 +1,11 @@
 
-    let open = document.querySelector('.open')
+    let openOn = document.querySelector('.open')
     let box = document.querySelector('.size_box');
     let close = document.querySelector('.my_close__btn');
     let overlay = document.querySelector('.overlay_size');
 
 
-    open.addEventListener("click", ()=>{
+    openOn.addEventListener("click", ()=>{
             overlay.style.display="block"
             box.style.display = "block";
     });
