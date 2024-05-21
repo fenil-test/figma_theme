@@ -44,14 +44,15 @@
           "settings": {
           }
         },
-        "size_kmU3EB": {
+        "size_KMUp33": {
           "type": "size",
           "settings": {
             "click_text": "Size Guide",
             "my_heading": "Select your Size Chart",
-            "my_des": "<h2><strong>How to measure<\/strong> <\/h2><p>In order to select the correct clothing size, we recommend you take the following measurements using a soft tape measure. If necessary, ask someone else to help.<\/p><p>Due to the nature of cashmere fabric size measurements my vary slightly per garment<\/p>",
+            "my_des": "<p><strong>How to measure<\/strong><\/p><p>In order to select the correct clothing size, we recommend you take the following measurements using a soft tape measure. If necessary, ask someone else to help.<\/p><p>Due to the nature of cashmere fabric size measurements my vary slightly per garment<\/p>",
             "my_img": "shopify:\/\/shop_images\/image_23.png",
-            "my_page": "size-chart"
+            "my_page": "size-chart",
+            "my_page2": "size-guide"
           }
         }
       },
@@ -63,7 +64,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "size_kmU3EB"
+        "size_KMUp33"
       ],
       "settings": {
         "enable_sticky_info": false,

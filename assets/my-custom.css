@@ -9,22 +9,27 @@ html{
     background: #F6F5F3;
 }
 .size_guide__box{
-    max-width: 100%;
-    position: absolute;
-    top:-2%;
-    display: flex;
-    justify-content: space-between;
-    left: 0%;
-    /* display: none; */
+    
+        max-width: 100%;
+        position: absolute;
+        top: 0%;
+        display: flex;
+        justify-content: space-between;
+        left: 0%;
+        z-index: 11;
+}
+.slideshow__controls.slider-buttons.slideshow__controls--border-radius-mobile {
+    display: block;
+}
+.section-template--17833031074048__main-padding .page-width .product--large{
+    position: relative;
 }
 .overlay_size{
     background: #00000066;
-    position: absolute;
-    top: 0%;
-    left: -100%;
-    max-width: 100%;
+    max-width: 50%;
     width: 100%;
-    height: 100%;
+    display: none;
+
 }
 .my_overlay__form form{
     display: flex;
@@ -66,8 +71,14 @@ html{
     padding: 2rem;
     background-color: #FFFFFF;
     z-index: 1;
-}
+    max-width: 50%;
+    width: 100%;
+    display: none;
 
+}
+.my_overlay_table2{
+    display: none;
+}
 #unique_text_QDhCha{
     position: absolute;
     top: 24.5%;
@@ -188,7 +199,9 @@ product-info .product__title h1{
     max-width: 10%;
     padding-left: 0rem;
 }
-
+.my_overlay_table table tr:nth-child(1){
+    background: #F6F5F3;
+}
 .my_main__product___show span{
     font-size: 30px;
 }
@@ -249,6 +262,8 @@ product-info .product__title h1{
 }
 .my_overlay_dec{
     display: flex;
+    align-items: center;
+    text-align: justify;
     margin-top: 2rem;
 }
 #MainProduct-template--17833031074048__main{
@@ -307,6 +322,9 @@ product-info .product__title h1{
     html{
         font-size: 49%;
     }
+    .my_overlay_table td span strong{
+        font-size: 1.4rem   ;
+    }
     .my_collection__color___variant___link .my_variant__color___size li{  
         width: 2.5rem;
         height: 2.5rem;
@@ -360,6 +378,13 @@ product-info .product__title h1{
     }
     slider-component.page-width {
         padding: 0rem !important;
+    }
+    .my_product__count .price-per-item__container{
+        max-width: 40%;
+    }
+    .my_product__buy___btn{
+        max-width: 60%;
+
     }
     ul#Slider-template--17833031074048__featured_collection_e8gBka {
         position: relative;
@@ -434,6 +459,12 @@ product-info .product__title h1{
         margin-left: 0rem;
         padding: 3.2rem 8rem 5.7rem;
     }
+    .my_product__count .price-per-item__container{
+        max-width: 32%;
+    }
+    .overlay_size{
+        max-width: 30%;
+    }
     .related-products .grid .grid__item {
         max-width: calc(43% - var(--grid-desktop-horizontal-spacing));
         width: calc(43% - var(--grid-desktop-horizontal-spacing));
@@ -479,7 +510,9 @@ product-info .product__title h1{
     .my_main__product___text p:nth-child(1) {
         font-size: 1.8rem;
     }
-    
+    .size_box{
+        max-width: 70%;
+    }
 }
 
 @media screen and (max-width:590px) {
@@ -531,6 +564,32 @@ product-info .product__title h1{
     }
     #MainProduct-template--17833031074048__main .page-width{
         padding: 0rem   ;
+    }
+}
+@media screen and (max-width:500px){
+    .size_box{
+        max-width: 90%;
+    }
+    .overlay_size{
+        max-width: 10%;
+    }
+    .my_overlay_table2{
+        display: block ;
+    }
+    .my_overlay_table2{
+        margin-top: 2rem;
+    }
+    .my_overlay__dec___innerDiv{
+        max-width: 100%;
+    }
+    .my_overlay_dec {
+       flex-direction: column-reverse;
+    }
+    .my_overlay_table{
+        display: none;
+    }
+    .my_overlay_table2 table tr:nth-child(odd){
+        background-color: #F6F5F3   ;
     }
 }
 @media screen and (max-width:400px) {

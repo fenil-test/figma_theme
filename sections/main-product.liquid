@@ -68,6 +68,65 @@
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <div class="page-width">
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
+  
+      {% for block in section.blocks %}
+        
+        {%- case block.type -%}
+
+        {%- when 'size' -%}
+          <div class="size_guide__box">
+            <div class="overlay_size"></div>
+            <div class="size_box">
+              <div class="my_overlay__box">
+                <div class="my_setting__size___text">
+                  <h6> {{ block.settings.click_text }}</h6>
+                </div>
+                <div class="my_close__btn">&#x2715;</div>
+              </div>
+              <h4 class="my_overlay_heading"> {{ block.settings.my_heading }} </h4>
+              <div class="my_overlay__form">
+                  <form action="">
+                    <div class="my_overlay__form__div">
+                      <div>
+                        <input type="radio" name="gender" id="" checked>
+                      </div>
+                      <div>
+                        <lable>Women</lable>  
+                      </div>
+                    </div>
+                    
+
+                    <div class="my_overlay__form__div">
+                      <div>
+                        <input type="radio" name="gender" id="" >
+                      </div>
+                      <div>
+                        <lable>men</lable>
+                      </div>
+                    </div>
+                  </form>
+              </div>
+              <div class="my_overlay_table">
+                {{ block.settings.my_page.content }}
+              </div>
+              <div class="my_overlay_table2">
+                {{ block.settings.my_page2.content }}
+              </div>
+              <div class="my_overlay_dec">
+                    <div class="my_overlay__dec___innerDiv my_dec__padding">
+                      <p>{{ block.settings.my_des }} </p>
+                    </div>
+                    <div class="my_overlay__dec___innerDiv">  
+                      <img src="{{ block.settings.my_img | image_url: width:'450'}}"/>
+                    </div>
+              </div>
+            </div>  
+          </div>
+        {% endcase %}
+      {% endfor %}
+  
+
+
       <div class="grid__item product__media-wrapper">
         {% render 'product-media-gallery', variant_images: variant_images %}
       </div>
@@ -86,53 +145,7 @@
               {%- when '@app' -%}
                 {% render block %}
 
-              {% when 'size' %}
-                <div class="size_guide__box">
-                  <div class="overlay_size">fefe</div>
-                  <div class="size_box">
-                    <div class="my_overlay__box">
-                      <div class="my_setting__size___text">
-                        <h6> {{ block.settings.click_text }}</h6>
-                      </div>
-                      <div class="my_close__btn">&#x2715;</div>
-                    </div>
-                    <h4 class="my_overlay_heading"> {{ block.settings.my_heading }} </h4>
-                    <div class="my_overlay__form">
-                        <form action="">
-                          <div class="my_overlay__form__div">
-                            <div>
-                              <input type="radio" name="gender" id="" checked>
-                            </div>
-                            <div>
-                              <lable>Women</lable>  
-                            </div>
-                          </div>
-                          
-
-                          <div class="my_overlay__form__div">
-                            <div>
-                              <input type="radio" name="gender" id="" >
-                            </div>
-                            <div>
-                              <lable>men</lable>
-                            </div>
-                          </div>
-                        </form>
-                    </div>
-                    <div class="my_overlay_table">
-                      {{ block.settings.my_page.content }}
-                    </div>
-                    <div class="my_overlay_dec">
-                          <div class="my_overlay__dec___innerDiv my_dec__padding">
-                            <p>{{ block.settings.my_des }} </p>
-                          </div>
-                          <div class="my_overlay__dec___innerDiv">
-                            <img src="{{ block.settings.my_img | img_url: ''}}"/>
-                          </div>
-                    </div>
-                  </div>  
-                </div>
-
+           
               {%- when 'text' -%}
                 <h6
               id="unique_{{ block.id }}" class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %} {{ block.settings.text }}"
@@ -832,6 +845,7 @@
   "name": "t:sections.main-product.name",
   "tag": "section",
   "class": "section",
+ 
   "blocks": [
     {
       "type": "@app"
@@ -870,7 +884,7 @@
     },
     {
       "type":"size",
-      "name":"multipl text",
+      "name":"Size Guide Chart",
       "settings":[
         {
           "type":"text",
@@ -888,7 +902,7 @@
           "type":"richtext",
           "id":"my_des",
           "default":"<p>How to measure In order to select the correct clothing size, we recommend you take the following measurements using a soft tape measure. If necessary, ask someone else to help.</p>",
-          "label":"dec"
+          "label":"description"
         },
         {
           "type":"image_picker",
@@ -899,8 +913,12 @@
           "type":"page",
           "id":"my_page",
           "label":"size Guide chart"
+        },
+        {
+          "type":"page",
+          "id":"my_page2",
+          "label":"size Guide chart"
         }
-
 
       ]
     },
